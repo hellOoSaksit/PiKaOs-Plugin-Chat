@@ -1,0 +1,12 @@
+{
+  "id": "chat",
+  "name": "Chat gateway",
+  "version": "0.1.0",
+  "coreVersion": "^0.1.0",
+  "kind": "capability",
+  "dependencies": ["ai"],
+  "provides": [],
+  "consumes": [],
+  "permissions": ["chat.read", "chat.use"],
+  "routes": []
+}
