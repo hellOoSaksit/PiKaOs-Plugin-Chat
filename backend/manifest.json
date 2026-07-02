@@ -4,7 +4,7 @@
   "version": "0.1.0",
   "coreVersion": "^0.1.0",
   "kind": "capability",
-  "dependencies": ["ai"],
+  "dependencies": ["postgres", "ai"],
   "provides": [],
   "consumes": [],
   "permissions": ["chat.read", "chat.use"],
