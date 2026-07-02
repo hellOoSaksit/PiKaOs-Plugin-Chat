@@ -4,9 +4,25 @@
   "version": "0.1.0",
   "coreVersion": "^0.1.0",
   "kind": "capability",
-  "dependencies": ["postgres", "ai"],
+  "dependencies": [
+    "postgres",
+    "ai"
+  ],
   "provides": [],
   "consumes": [],
-  "permissions": ["chat.read", "chat.use"],
+  "permissions": [
+    {
+      "key": "chat.read",
+      "group": "Chat",
+      "name_th": "อ่าน/รับข้อความจาก agent ผ่านแชต (อ่านอย่างเดียว)",
+      "name_en": "Read agent chat (read-only)"
+    },
+    {
+      "key": "chat.use",
+      "group": "Chat",
+      "name_th": "อ่าน + สั่งงาน agent ผ่านแชต",
+      "name_en": "Use agent chat (read & command)"
+    }
+  ],
   "routes": []
 }
